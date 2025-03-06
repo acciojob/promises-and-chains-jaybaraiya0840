@@ -5,7 +5,7 @@ document.getElementById("voteForm").addEventListener("submit", function(event) {
     let age = document.getElementById("age").value.trim();
     
     if (!name || !age) {
-        alert("Please enter valid details.");
+        alert("Please enter valid details"); // Remove period to match Cypress
         return;
     }
     
